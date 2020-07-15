@@ -1,0 +1,20 @@
+.CollectionItem{
+    height: 300px;
+    width: 250px;
+    position: relative;
+
+    .background{
+        height: 90%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .productName{
+        position: absolute;
+        left: 0;
+    }
+    .productPrice{
+        position: absolute;
+        right: 0;
+    }
+}
