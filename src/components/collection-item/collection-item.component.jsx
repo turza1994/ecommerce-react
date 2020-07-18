@@ -2,12 +2,12 @@ import React from 'react';
 
 import "./collection-item.styles.scss"
 
-const CollectionItem = ()=>{
+const CollectionItem = (props)=>{
     return(
         <div className="CollectionItem">
-            <div className="background" style={{backgroundImage: "url('https://i.ibb.co/ZYW3VTp/brown-brim.png')" }} />
-            <span className="productName">product name</span>
-            <span className="productPrice">product price</span>
+            <div className="background" style={{backgroundImage: `url(${props.item.imageUrl})` }} />
+            <span className="productName">{props.item.name}</span>
+            <span className="productPrice">{props.item.price}</span>
         </div>
     )
 }
