@@ -1,18 +1,32 @@
-import React from 'react'
+import React, { Component } from 'react';
 
-const SignIn = () => {
-    return (
-        <div>
-            <h3>Already have an account ?</h3>
-            <form>
-                <label>email:</label>
-                <input type="email" name="email"/>
-                <br/>
-                <label>password:</label>
-                <input type="password" name="password"/>
-            </form>
-        </div>
-    )
+import Input from '../input/input.component';
+
+class SignIn extends Component {
+
+    constructor(){
+        super();
+        this.state={
+            email: "",
+            password: ""
+        }
+    }
+
+    handleChange = event => {
+        this.setState({[event.target.name]: event.target.value});
+      }
+
+    render() {
+        return (
+            <div>
+                <h3>Already have an account ?</h3>
+                <form>
+                    <Input type = "text" name="email" handleChange={this.handleChange} > email: </Input>
+                    <Input type = "password" name="password" handleChange={this.handleChange} > password: </Input>
+                </form>
+            </div>
+        );
+    }
 }
 
-export default SignIn
+export default SignIn;
