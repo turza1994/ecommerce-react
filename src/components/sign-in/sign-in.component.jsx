@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Input from '../input/input.component';
 import './sign-in.styles.scss';
+import signInWithGoogle from '../../firebase/firebase.utils'
 class SignIn extends Component {
 
     constructor(){
