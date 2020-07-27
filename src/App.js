@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
-import { auth } from "./firebase/firebase.utils";
+import { Route } from 'react-router-dom';
+import { auth, createUserProfile } from "./firebase/firebase.utils";
 
 import Header from './components/header/header.component';
 import HomePage from './pages/homepage/homepage.component';
 import Shop from './pages/shop/shop.component';
-import Test from './pages/test.component';
 import SignInSignUp from './pages/sign-in-sign-up/sign-in-sign-up.component';
 import './App.css';
 
@@ -29,6 +28,8 @@ class App extends Component {
         currentUser: user
       })
       console.log(this.state.currentUser)
+
+      createUserProfile(user)
     })
   }
 
