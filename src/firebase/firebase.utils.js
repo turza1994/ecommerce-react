@@ -20,13 +20,11 @@ const config = {
 
   export const createUserProfile = (user)=>{
 
-    if(!user) return
-
+    // if(!user) return
     const {uid, displayName, email} = user;
     const createdAt = new Date();
     const userRef = firestore.doc(`users/${uid}`);
     const snapShot = userRef.get();
-    console.log(snapShot);
 
     if(!snapShot.exists){
       userRef.set({
@@ -36,6 +34,7 @@ const config = {
       })
     }
 
+    return userRef
   }
 
   const provider = new firebase.auth.GoogleAuthProvider();
