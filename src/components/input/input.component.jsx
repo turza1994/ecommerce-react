@@ -2,11 +2,11 @@ import React from 'react'
 
 import './input.styles.scss';
 
-const Input = (props) => {
+const Input = ({children, handleChange, ...otherProps}) => {
     return (
         <div className="group">
-            {props.children}
-            <input className="input" type={props.type} name={props.name} onChange={props.handleChange} />
+            {children}
+            <input className="input" onChange={handleChange} {...otherProps} />
         </div>
     )
 }
