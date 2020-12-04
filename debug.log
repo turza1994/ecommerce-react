@@ -1,0 +1,6 @@
+[1017/132840.308:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1116/124756.859:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1116/124756.871:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Mazba Turza\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\1bb92255-801e-4c07-8bb1-5140cac38e61: The system cannot find the path specified. (0x3)
+[1116/124756.873:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Mazba Turza\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\92f64933-5f18-4863-ac59-eae22ddba99a: The system cannot find the path specified. (0x3)
+[1116/124756.876:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Mazba Turza\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\303cef92-0687-42c4-9381-ce336a0a4a50: The system cannot find the path specified. (0x3)
+[1116/124756.879:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Mazba Turza\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\bb41469f-3292-438a-8680-eeb0ce051b0b: The system cannot find the path specified. (0x3)
