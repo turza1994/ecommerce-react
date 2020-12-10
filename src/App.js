@@ -7,7 +7,7 @@ import HomePage from './pages/homepage/homepage.component';
 import Shop from './pages/shop/shop.component';
 import SignInSignUp from './pages/sign-in-sign-up/sign-in-sign-up.component';
 import './App.css';
-import { setCurrentUser } from './redux/user/user.action';
+import { setCurrentUser } from './redux/user/user.actions';
 
 
 class App extends Component {

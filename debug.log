@@ -4,3 +4,16 @@
 [1116/124756.873:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Mazba Turza\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\92f64933-5f18-4863-ac59-eae22ddba99a: The system cannot find the path specified. (0x3)
 [1116/124756.876:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Mazba Turza\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\303cef92-0687-42c4-9381-ce336a0a4a50: The system cannot find the path specified. (0x3)
 [1116/124756.879:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Mazba Turza\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\bb41469f-3292-438a-8680-eeb0ce051b0b: The system cannot find the path specified. (0x3)
+[1207/113418.332:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1208/014057.362:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1208/014057.366:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1208/014057.371:ERROR:exception_snapshot_win.cc(99)] thread ID 10928 not found in process
+[1208/014057.373:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1208/014057.373:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1208/014057.374:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1208/014057.374:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1208/014057.374:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[1208/014057.374:ERROR:exception_snapshot_win.cc(99)] thread ID 9272 not found in process
+[1208/014057.374:ERROR:exception_snapshot_win.cc(99)] thread ID 3484 not found in process
+[1208/125633.129:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1210/154047.740:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
